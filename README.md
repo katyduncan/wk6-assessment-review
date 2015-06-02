@@ -1,5 +1,6 @@
 # wk6-assessment-review
 
+
 **** OO wk 5 monday breadlist ******************************************
 function TodoList() {
 	this.tasks = [];
@@ -369,3 +370,30 @@ end
 
 
 ******* RESTful ***********************************
+#display all photos - photos#index
+get '/photos' do
+end
+
+#return form for new photo - photos#new
+get '/photos/new' do
+end
+
+#create a new photo - photos#create
+post '/photos' do
+end
+
+#display specific photo - photos#show
+get '/photos/:id' do
+end
+
+#return form for editing photo - photos#edit
+get '/photos/:id/edit' do
+end
+
+#update specific photo - photos#update
+patch/put '/photos/id' do
+end
+
+#delete specific photo - photos#destroy
+delete '/photos/:id' do
+end
