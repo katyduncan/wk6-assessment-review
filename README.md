@@ -403,7 +403,7 @@ end
 
 ******* alias *******************************************
 class Survey < ActiveRecord::Base
-  # Remember to create a migration!
+
   has_many :questions
   belongs_to :creator, foreign_key: :creator_id, class_name: 'User'
 

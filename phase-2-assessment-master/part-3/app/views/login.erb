@@ -1,0 +1,15 @@
+<div class="login_page">
+  <h4>Please Login Below</h4>
+  <div class="errorMessage">
+    <% if @errors  %>
+    <ul id="errors">
+      <% @errors.each do |message| %>
+      <li>***<%= message %>***</li>
+      <% end %>
+    </ul>
+    <% end %>
+  </div>
+</div>
+
+<%= erb :_sign_up %>
+<%= erb :_sign_in %>
